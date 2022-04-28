@@ -16,14 +16,14 @@ body{
 /* Container */
 .boxUm {
     background-image: linear-gradient(to bottom, white, rgb(239, 248, 255), rgb(123, 213, 255));
-    width: 100vw;
+    width: 98.7vw;
     height: 100vh;
     display: flex;
     justify-content: center;
 }
 
 .boxDois  {
-    width: 100vw;
+    width: 98.7vw;
     height: 100vh;
     display: flex;
     justify-content: center;
