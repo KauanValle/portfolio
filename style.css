@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+/* Container */
+.boxUm {
+    background-image: linear-gradient(to bottom, white, rgb(239, 248, 255), rgb(123, 213, 255));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.boxDois  {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    width: 75vw;
+}
+
+.containerArticle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.containerLinguagens{
+    display: flex;
+}
+
+/* Fim container */
+
+/* NavBar */
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 20px;
+    list-style: none;
+}
+
+.ponto {
+    font-family: 'Lobster', cursive;
+    font-size: 55px;
+}
+
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    display: flex;
+}
+
+.navbar h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 55px;
+}
+
+/* Fim da NavBar */
+
+
+/* Cores */
+
+.azul {
+    color:rgb(0, 140, 205)
+}
+
+/* Fim das cores */
+
+/* Infos */
+
+.infos {
+    text-align: center;
+}
+
+.fullstackDevelop{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.textoInfo{
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.ferramentasUtilizadas{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 30px 0;
+}
+
+.boxLinguagens{
+    box-shadow: 3px 3px 2px rgb(173, 204, 250);
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.boxLinguagens img{
+    margin-right: 10px;
+}
+
+/* Fim das infos */
+
+/* Botoes */
+
+.botaoContato{
+    padding: 15px;
+    width: 230px;
+    background-color: rgb(0, 140, 205);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.botaoContato:hover{
+    background-color: rgb(0, 174, 255);
+}
+
+.botaoContato:active{
+    background-color: rgb(0, 121, 178);
+}
+
+/* Fim botoes */
+
+/* Aulas */
+
+.aulaBox{
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.aulas{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aulaBox:hover{
+    box-shadow: 3px 3px 3px rgb(83, 157, 255);
+    margin: 15px;
+    transition: 300ms;
+}
+
+.containerAula{
+    width: 100%;
+    height: 130px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
