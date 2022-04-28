@@ -15,7 +15,7 @@ body{
 
 /* Container */
 .boxUm {
-    background-image: linear-gradient(to bottom, white, rgb(239, 248, 255), rgb(123, 213, 255));
+    background-image: linear-gradient(to bottom, white, rgb(123, 213, 255), white);
     width: 98.7vw;
     height: 100vh;
     display: flex;
@@ -28,6 +28,14 @@ body{
     display: flex;
     justify-content: center;
     background-color: rgb(255, 255, 255);
+}
+
+.boxTres {
+    width: 98.7vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(123, 213, 255);
 }
 .container{
     width: 75vw;
@@ -176,4 +184,32 @@ body{
 a {
     text-decoration: none;
     color: black;
+}
+
+/* Fim aulas */
+
+/* Sobre mim */
+
+.sobreMim {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobreMim h2 {
+    margin: 30px 0;
+    font-size: 40px;
+}
+
+.sobreMimTexto{
+    text-align: center;
+    font-size: 16px;
+}
+
+.texto{
+    margin: 50px 0;
+}
+
+#contato p {
+    font-weight: bold;
 }
